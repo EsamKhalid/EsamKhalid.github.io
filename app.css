@@ -29,9 +29,15 @@
     color: white;   
 }
 
-a{
-    text-decoration: none;
+.navBarText a{
     color: white;
+    text-decoration: none;
+    text-decoration-color: white;
+}
+.navBarText a:hover{
+    color: gray;
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
 }
 
 ul li{
@@ -46,8 +52,31 @@ ul li{
     border-radius: 12.5px;
 }
 
-#textLogo{
+#textLogo a{
     font-size: 25px;
+    color: white;
+    text-decoration: none;
+    text-decoration-color: white;
+}
+
+#profile{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    height: 80vh;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 50px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+}
+
+.container-text{
+    padding: 10px;
+    align-self: center;
+    text-align: center;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+    border-radius: 10px;
 }
 
 
