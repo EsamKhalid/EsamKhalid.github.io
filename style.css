@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: montserrat;
 }
 
 .navbar .logo{
@@ -14,7 +15,6 @@
     background-size: cover;
     height: 100vh;
     position: relative;
-    font-family: montserrat;
 }
 
 .navbar{
@@ -22,11 +22,12 @@
     height: 35px;
     display: flex;
     margin: auto;
-    padding: 15px 0;
+    padding: 12.5px 0;
+    margin-top: -10px;
     align-items: center;
     justify-content: space-between;
     background-color: #000;
-    color: white;   
+    color: white;  
 }
 
 .navBarText a{
@@ -35,7 +36,6 @@
     text-decoration-color: white;
 }
 .navBarText a:hover{
-    color: gray;
     text-decoration: underline;
     text-underline-offset: 0.5rem;
 }
@@ -54,12 +54,13 @@ ul li{
 
 #textLogo a{
     font-size: 25px;
+    font-weight: 100;
     color: white;
     text-decoration: none;
     text-decoration-color: white;
 }
 
-#profile{
+.section{
     display: flex;
     justify-content: center;
     gap: 5rem;
@@ -71,6 +72,18 @@ ul li{
     box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
 }
 
+#profile{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    height: 80vh;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 50px;
+    /* box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24); */
+}
+
 .container-text{
     padding: 10px;
     align-self: center;
@@ -78,6 +91,26 @@ ul li{
     box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
     border-radius: 10px;
 }
+
+#profile-text{
+    padding: 10px;
+    align-self: center;
+    text-align: center;
+}
+
+#pfp{
+    align-self: center;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin: -5%;
+}
+
+#profile-text p{
+    width: 50vh;
+}
+
+
 
 
 
