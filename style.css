@@ -110,21 +110,34 @@ ul li{
     width: 50vh;
 }
 
-#project-section{
+#projects-title{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
-.project-static-images{
+#project-section{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+
+.project-static-image{
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
     position: relative;
     text-align: center;
     color: black;
+    
 }
 
-.project-static-images img{
+.project-static-image img{
     width: 250px;
     height: 250px;  
     background-color: white;
+    border-radius: 10%;
     -webkit-transition-property: all;
     transition-property: all;
     -webkit-transition-duration: 0.1s;
@@ -132,19 +145,28 @@ ul li{
     -webkit-transition-timing-function: ease;
     transition-timing-function: ease;
 }
-
-.project-static-images img:hover{
+.project-static-image img:hover{
     transform: scale(1.03);
     filter: brightness(30%);
 }
 
-
 .project-image-overlay-text{
+    display: none;
     position: absolute;
+    z-index: 9;
     top: 8px;
     left: 16px;
 }
 
+
+.project-static-image:hover .project-image-overlay-text{
+    display: flex;
+}
+
+.filler-div{
+    width: 250px;
+    height: 250px;
+}
 
 
 
