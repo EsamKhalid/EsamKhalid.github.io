@@ -23,7 +23,6 @@
     display: flex;
     margin: auto;
     padding: 12.5px 0;
-    margin-top: -10px;
     align-items: center;
     justify-content: space-between;
     background-color: #000;
@@ -106,9 +105,53 @@ ul li{
     margin: -5%;
 }
 
+
 #profile-text p{
     width: 50vh;
 }
+
+#project-section{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.project-static-images{
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+.project-static-images img{
+    width: 250px;
+    height: 250px;  
+    background-color: white;
+    -webkit-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.1s;
+    transition-duration: 0.1s;
+    -webkit-transition-timing-function: ease;
+    transition-timing-function: ease;
+}
+
+.project-static-images img:hover{
+    transform: scale(1.03);
+    filter: brightness(30%);
+}
+
+
+.project-image-overlay-text{
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+
+
+
+
+
+
+
+
 
 
 
