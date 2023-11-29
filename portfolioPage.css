@@ -126,26 +126,59 @@ ul li{
 }
 
 #portfolio-details-body{
-    text-align: center;
-    align-self: center;
     word-wrap: break-word;
-    display: block;
 }
 
-#portfolio-details-body p{
-    width: 250px;
-    height: 250px;
-    margin-top: 15px;
-    border-style: solid;
+.text-container{
+    text-align: center;
 }
 
-#portfolio-details-body h1{
-    width: 250px;
-    height: 250px;
-    margin-top: 15px;
-    border-style: solid;
+#portfolio-explanation-text h1{
+    margin-top: 20px;
+}
+
+#portfolio-explanation-text p{
+    margin-top: 20px;
+}
+
+
+
+/* Image grid stuff */
+.image-section{
+    display: flex;
+    justify-content: center;
+
+    width: fit-content;
+    justify-self: center;
     
+
+    width: 97.5%;
+    margin: 20px;
 }
+.image-section img{
+    justify-self: center;
+}
+
+.image-container{
+    display: grid;
+    grid-gap: 7.5px;
+
+}
+
+.small-cell{
+    width: 329.75px;
+    height: 140.266px;
+    grid-column: span 4;
+}
+
+.large-cell{
+    width: 667px;
+    height: 283.727px;
+    grid-column: span 8;
+}
+/* end image grid stuff */
+
+
 
 
 

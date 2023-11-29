@@ -1,0 +1,34 @@
+
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+.image-section{
+    display: flex;
+    justify-content: center;
+
+    width: fit-content;
+    justify-self: center;
+}
+.image-section img{
+    justify-self: center;
+}
+
+.image-container{
+    display: grid;
+    grid-gap: 7.5px;
+
+}
+
+.small-cell{
+    width: 329.75px;
+    height: 140.266px;
+    grid-column: span 4;
+}
+
+.large-cell{
+    width: 667px;
+    height: 283.727px;
+    grid-column: span 8;
+}
