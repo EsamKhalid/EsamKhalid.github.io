@@ -11,7 +11,6 @@
 }
 
 .main{
-    width: 100%;
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -69,6 +68,7 @@ ul li{
     margin-top: 10px;
     margin-left: 10px;
     margin-right: 10px;
+    margin-bottom: 100px;
     border-radius: 50px;
     box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
 }
@@ -118,10 +118,10 @@ ul li{
 }
 
 #project-section{
-    padding: 10px;
+    padding: 10px 0px 10px 10px;
     height: max-content;
+    border-radius: 0;
 }
-
 
 .project-static-image{
     width: 250px;
@@ -129,22 +129,20 @@ ul li{
     display: inline-flex;
     position: relative;
     text-align: center;
-    color: black;
+    color: white;
 }
-
-
 
 .project-static-image img{
     width: 250px;
     height: 250px;  
     background-color: white;
-    border-radius: 10%;
     -webkit-transition-property: all;
     transition-property: all;
     -webkit-transition-duration: 0.1s;
     transition-duration: 0.1s;
     -webkit-transition-timing-function: ease;
     transition-timing-function: ease;
+
 }
 
 .project-static-image img:hover{
@@ -173,18 +171,16 @@ ul li{
 .row{
     display: flex;
     flex-wrap: wrap;
-    padding: 0 4px;
+    padding: 0 5px;
 }
 
 .column{
     flex: 50%;
-    padding: 0 4px;
-
+    padding: 0 12.5px;
 }
 
-
 .column .project-static-image{
-    margin-top: 8px;
+    margin: 7.5px 7.5px 7.5px 0px;
     vertical-align: middle;
     width: 250px;
     height: 250px;
@@ -200,6 +196,8 @@ ul li{
     display: flex;
     justify-content: center;
 }
+
+
 
 
 
