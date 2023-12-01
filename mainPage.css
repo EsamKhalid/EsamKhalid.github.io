@@ -131,12 +131,13 @@ ul li{
 }
 
 .project-static-image{
-    width: 250px;
-    height: 250px;
+    width: fit-content;
+    height: fit-content;
     display: inline-flex;
     position: relative;
     text-align: center;
     color: white;
+
 }
 
 .project-static-image img{
@@ -149,7 +150,7 @@ ul li{
     transition-duration: 0.1s;
     -webkit-transition-timing-function: ease;
     transition-timing-function: ease;
-
+    border-radius: 5px;
 }
 
 .project-static-image img:hover{
@@ -202,6 +203,19 @@ ul li{
 #portfolio-title{
     display: flex;
     justify-content: center;
+}
+
+.section-borderless{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    height: 80vh;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 100px;
+    border-radius: 50px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
 }
 
 

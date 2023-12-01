@@ -82,7 +82,7 @@ ul li{
     font-size: 50px;
 }
 
-#gif-container{
+.gif-container{
     display: flex;
     justify-content: center;
 }
@@ -91,7 +91,6 @@ ul li{
     display: flex;
     justify-content: center;
     gap: 5rem;
-    height: 70vh;
     width: fit-content;
     margin-top: 30px;
     margin-left: 30px;
@@ -126,7 +125,10 @@ ul li{
 }
 
 #portfolio-details-body{
-    word-wrap: break-word;
+    border-radius: 15px;
+    height: fit-content;
+    padding-bottom: 30px;
+    box-shadow: none;
 }
 
 .text-container{
@@ -135,10 +137,14 @@ ul li{
 
 #portfolio-explanation-text h1{
     margin-top: 20px;
+    font-size: 35px;
 }
 
 #portfolio-explanation-text p{
+    width: 1125px;
     margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
 }
 
 
@@ -154,30 +160,58 @@ ul li{
 
     width: 97.5%;
     margin: 20px;
+    
 }
 .image-section img{
     justify-self: center;
+    border-radius: 7.5px;
 }
 
 .image-container{
     display: grid;
     grid-gap: 7.5px;
-
+    margin-bottom: 20px;
 }
 
 .small-cell{
-    width: 329.75px;
-    height: 140.266px;
+    width: 580px;
+    height: 262px;
+    justify-self: center;
     grid-column: span 4;
 }
 
 .large-cell{
-    width: 667px;
-    height: 283.727px;
+    width: 1171px;
+    height: 532px;
     grid-column: span 8;
 }
 /* end image grid stuff */
 
+.section-borderless-stack{
+    display: block;
+    justify-content: center;
+    gap: 5rem;
+    height: 80vh;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 100px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+
+.section-borderless{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    height: 80vh;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 100px;
+    border-radius: 50px;
+}
 
 
 
