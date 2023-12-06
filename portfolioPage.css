@@ -213,6 +213,15 @@ ul li{
     border-radius: 50px;
 }
 
+.section-title{
+    display: flex;
+    justify-content: center;
+}
+
+#project-files h3{
+    padding-top: 10px;
+}
+
 
 
 
