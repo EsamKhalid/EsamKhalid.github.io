@@ -1,3 +1,4 @@
-function expandProject(){
-    alert("hello world");
+function test(){
+    var str = document.getElementById('test').value;
+    str.innerHTML = "test";
 }

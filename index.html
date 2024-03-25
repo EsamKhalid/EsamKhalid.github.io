@@ -3,6 +3,7 @@
     <head>
         <link rel="stylesheet" href = "mainPage.css"/>
         <link rel="stylesheet"   href="https://fonts.googleapis.com/css?family=Montserrat">
+        <script src="app.js"></script>
     </head>
     <body>
         <div class="main">
@@ -58,10 +59,19 @@
                 </p>
             </div>
 
-
+        
             <div class="section-title" id="project-section-title">
-                <h1>Projects</h1>
+                <h1 id="test">Projects</h1>
             </div>
+
+            <label id="sort-by" for="sort">Sort By</label>
+            <select id="sort-projects" onchange="test()">
+                <option value="Date-Ascending">Date Ascending</option>
+                <option value="Date-Descending">Date Descending</option>
+            </select>
+
+            <button onclick="test()">test</button>
+
             <div class="section" id="project-section">
                 <div class="row">
                     <div class="column">
@@ -85,10 +95,6 @@
                                 <h2>Portfolio 2</h2>
                             </div>
                         </div>
-
-
-
-                        				
                     </div>
                 </div>
             </div>
