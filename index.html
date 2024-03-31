@@ -64,8 +64,8 @@
                 <h1 id="test">Projects</h1>
             </div>
 
-            <label id="sort-by" for="sort">Sort By</label>
-            <select id="sort-projects" onchange="test()">
+            <label id="sort-by" for="sort-projects">Sort By</label>
+            <select id="sort-projects" onchange="sortElements()">
                 <option value="Date-Ascending">Date Ascending</option>
                 <option value="Date-Descending">Date Descending</option>
             </select>
@@ -74,22 +74,22 @@
 
             <div class="section" id="project-section">
                 <div class="row">
-                    <div class="column">
-                        <div class="project-static-image">
+                    <div class="column" id="column">
+                        <div class="project-static-image sortable"  data-date="2024-02-12">
                             <a href="portfolio1.html"><img src="portfolio1-cover-img.png" id="portfolio-image"></a>
                                 <div class="project-image-overlay-text"> 
                                     <h2>portolio 1</h2>
                                 </div>
                         </div> 
                         
-                        <div class="project-static-image">
+                        <div class="project-static-image sortable" data-date="2023-11-23">
                             <a href="coursework.html"><img src="alevelproj.png" id="portfolio-image"></a>
                             <div class="project-image-overlay-text">
                                 <h2>A-level coursework</h2>
                             </div>
                         </div>
 
-                        <div class="project-static-image">
+                        <div class="project-static-image sortable"  data-date="2023-11-10">
                             <a href="portfolio2.html"><img src="placeholder.avif" id="portfolio-image"></a>
                             <div class="project-image-overlay-text">
                                 <h2>Portfolio 2</h2>
