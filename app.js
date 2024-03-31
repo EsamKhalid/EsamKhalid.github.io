@@ -2,9 +2,7 @@
 function sortElements(){
     const list = document.getElementById("column");
     const sortableArr = document.getElementsByClassName("sortable");
-    const selectValue = document.getElementById('sort-by').value;
-
-    console.log(list);
+    const selectValue = document.getElementById("sort-projects").value;
 
     const dates = [];
 
@@ -14,14 +12,15 @@ function sortElements(){
     }
 
     //ascending
-    if(selectValue == "ascending"){
+    if(selectValue == "Date-Ascending"){
         dates.sort(function(a,b){return a - b});
     }
     //descending
-    else if(selectValue == "descending"){
-        dates.sort(function(a,b){return b - a});
-        
+    else if(selectValue == "Date-Descending"){
+        dates.sort(function(a,b){return b - a});;
     }
+
+
 
     const tempArr = [];
 
@@ -45,7 +44,6 @@ function sortElements(){
     for(let i = 0; i < dates.length; i++){
         if(tempArr[i] != undefined){
             list.appendChild(tempArr[i]);
-            
         }
     }
 }
