@@ -77,6 +77,7 @@ ul li{
 #portfolio-title{
     display: flex;
     justify-content: center;
+    text-align: center;
     margin-top: 50px;
     margin-bottom: 50px;
     font-size: 50px;
@@ -221,6 +222,15 @@ ul li{
 #project-files h3{
     padding-top: 10px;
 }
+
+#IAD1-pic{
+    width: 750px;
+}
+
+#perlinpic{
+    height: 300px;
+}
+
 
 
 
